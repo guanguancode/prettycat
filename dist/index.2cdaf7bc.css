@@ -5,7 +5,7 @@ body {
 
 .cat_box {
   position: relative;
-  top: 50px;
+  top: 35px;
 }
 
 .cat {
@@ -13,19 +13,19 @@ body {
   margin: 0 auto;
 }
 
-.cat_head {
+.head {
   width: 400px;
-  height: 340px;
+  height: 320px;
   z-index: 10;
   background: #f6f7f2;
   border: 2px solid #2e2e2e;
-  border-radius: 50% 50% 35% 35%;
+  border-radius: 50% 50% 30% 30%;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
 }
 
-.huawen {
+.head_tabby {
   height: 160px;
   width: 180px;
   background: #8d8d8d;
@@ -35,7 +35,7 @@ body {
   overflow: hidden;
 }
 
-.huawen > div:first-child {
+.head_tabby > div:first-child {
   height: 160px;
   width: 90px;
   background: #f0ac6b;
@@ -95,7 +95,7 @@ body {
   z-index: 20;
   margin-left: -150px;
   position: absolute;
-  top: 200px;
+  top: 180px;
   left: 50%;
   overflow: hidden;
 }
@@ -169,7 +169,7 @@ body {
   z-index: 20;
   margin-left: -190px;
   position: absolute;
-  top: 190px;
+  top: 180px;
   left: 50%;
 }
 
@@ -232,7 +232,7 @@ body {
   z-index: 30;
   margin-left: -15px;
   position: absolute;
-  top: 260px;
+  top: 250px;
   left: 50%;
 }
 
@@ -250,7 +250,7 @@ body {
   z-index: 30;
   margin-left: -100px;
   position: absolute;
-  top: 260px;
+  top: 250px;
   left: 50%;
   overflow: hidden;
 }
